@@ -1,4 +1,4 @@
-LUA_HEADER=/usr/include/lua5.1
+LUA_HEADER=/usr/local/include
 
 RPI_GPIO_PYTHON_SRC_DIR=../source/
 
