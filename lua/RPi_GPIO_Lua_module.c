@@ -919,8 +919,8 @@ int luaopen_GPIO (lua_State *L){
   lua_setfield(L, -2, "__index");
   lua_pop(L, 1);
 
-  //luaL_newlib(L, gpio_lib);
-  luaL_register(L, "GPIO", gpio_lib);
+  luaL_newlib(L, gpio_lib);
+  //luaL_register(L, "GPIO", gpio_lib);
   
   lua_pushboolean(L, 1);
   lua_setfield(L, -2, "HIGH");
