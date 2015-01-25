@@ -1,4 +1,4 @@
-LUA_HEADER=/usr/local/include
+LUA_HEADER=../../skynet/3rd/lua/
 
 RPI_GPIO_PYTHON_SRC_DIR=../source/
 
