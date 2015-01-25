@@ -1,8 +1,8 @@
-LUA_HEADER=../../skynet/3rd/lua/
+LUA_HEADER=../../../skynet/3rd/lua/
 
 RPI_GPIO_PYTHON_SRC_DIR=../source/
 
-LUA_LIBS=../../skynet/3rd/lua/liblua.a
+LUA_LIBS=../../../skynet/3rd/lua/liblua.a
 
 GPIO_CORE_OBJECTS=c_gpio.o cpuinfo.o event_gpio.o soft_pwm.o
 
