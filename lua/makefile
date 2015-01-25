@@ -2,7 +2,7 @@ LUA_HEADER=/usr/local/include
 
 RPI_GPIO_PYTHON_SRC_DIR=../source/
 
-LUA_LIBS=/usr/local/lib/liblua.a
+LUA_LIBS=../../skynet/3rd/lua/liblua.a
 
 GPIO_CORE_OBJECTS=c_gpio.o cpuinfo.o event_gpio.o soft_pwm.o
 
